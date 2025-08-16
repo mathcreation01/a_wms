@@ -1,23 +1,35 @@
 import type { AxisModel } from "@syncfusion/ej2-react-charts";
 
-export const sidebarItems = [
+export const adminSidebarItems = [
   {
     id: 1,
     icon: "/assets/icons/home.svg",
     label: "Dashboard",
-    href: "/dashboard",
+    href: "/admin/dashboard",
+  },
+  {
+    id: 2,
+    icon: "/assets/icons/company.svg",
+    label: "Organization",
+    href: "/admin/organization",
   },
   {
     id: 3,
     icon: "/assets/icons/users.svg",
     label: "All Users",
-    href: "/all-users",
+    href: "/admin/all-users",
   },
   {
     id: 4,
-    icon: "/assets/icons/itinerary.svg",
-    label: "AI Trips",
-    href: "/trips",
+    icon: "/assets/icons/analytics.svg",
+    label: "Analytics",
+    href: "/admin/analytics",
+  },
+  {
+    id: 5,
+    icon: "/assets/icons/help-desk.svg",
+    label: "Help",
+    href: "/admin/help",
   },
 ];
 
